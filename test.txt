@@ -1,0 +1,574 @@
+iiiiijkmm
+Page 25 Re-Indentation 
+Page 34 총 사업비 1차 2차: 내용 동일
+Page 35 참여인력, 신규 인력 채용 계획 및 활용방안: 내용 동일
+Page 37 1차년도 비목별 총괄, 2차년도 비목별 총괄: 내용 동일
+Page 38 총사업비: 현재 투자가 된 비용인지 투자 예상 비용인지 확인 필요
+                  Table size 재조정 할 것
+
+
+
+1. 기관 소개
+ 주관기관의 연구개발 및 사업화 역량을 판단할 수 있는 인프라 등 제시
+  - 주생산품 : N/A
+  - 매출 : N/A
+  - 인력구성 : PPT 35, 36
+  - 기술개발 및 사업화 실적 등: 실적 N/A 및 사업화 계획 PPT 26, 27, 28
+  - 연구 설비·장비 확보 여부: PPT 38 
+  - 사업장 및 생산시설 현황 등: 사업자 현황 없음
+ 
+
+
+2. 연구 역량
+본 과제 참여인력의 연구개발 및 사업화에 대한 전문성 제시
+  - 총괄 책임자의 역량: PPT 33
+  - 참여 연구원 현황 등: PPT 35, 36
+
+
+
+3. 사업 개요
+  - 과제명: PPT 3 ~ 17
+  - 참여기관: PPT 33
+  - 사업화 추진배경: PPT 3 ~ 17 
+  - 사업화 대상 제품·기술 등 과제 개요 요약: PPT 7 ~ 28
+
+
+4. 시장 동향
+  - 국·내외 산업특징 : PPT 3, 4
+  - 기술동향 :  Service ,자체가 달라 꼭 필요한지 여부에 대한 확인 필요
+  - 경쟁업체 현황 : PPT 3 ~ 6
+  - 특허: PPT 18
+  - 시장 규모 등: PPT 3, 4
+
+
+5. 대상 기술
+  - 대상기술 개요 - PPT 18 -> 추가 보완이 필요한지 여부 급하게 확인해서 결정 할 것
+  - 이전기술의 우수성 및 본과제와의 연관성 : 이전 기술에 대한 상세 내용
+  - 핵심 경쟁요인 : 핵심 경쟁 요인에 대한 : 이전 기술과 비교 data에 같이 언급
+  - 핵심기술의 권리성 확보: PPT 18
+  - 상품화 요구수준 등: PPT 23
+
+
+6. 사업 목표
+  - 연차별 기술개발 목표 : PPT 19
+  - 개발 내용 및 범위:  PPT 19
+  - 마케팅·매출 목표 등 : PPT 32
+  * 간략·명료한 목표 제시, 시스템 구성도·구조는 그림 활용
+
+
+7. 추진 전략
+  - 개발전략 : PPT 24 ~ 32
+  - 추진체계 : PPT 35, 36 (추진 체계에 대한 내용 구체적이지 않음)
+  - 추진일정 : PPT 19, 
+  - 참여기관별 역할분담 등 : N/A
+
+
+8. 사업화 계획
+  - 목표 고객·시장 : 없음. 내용 다시 확인 할 것
+  - 사업화 추진 전략 : PPT 24 ~ 30 
+  - 비즈니스 및 수익모델 : PPT 32
+  - 판매·생산· 투자 계획 등 : PPT 32 ~ 38
+
+
+
+9. 기대 효과
+  - 기술적 성과 : 기술 적인 성과에 대한 내용을 PPT 31에 추가할지 여부 정리 할 것
+  - 국내외 관련 기술 파급효과: PPT 31
+  - 사업적/경제적 성과(매출·수출· 고용 등) 등: PPT 31, 32
+
+
+
+10. 사업비 내역
+  - 비목별 사업비 : PPT 37
+  - 연구기자재 구입 사유(해당시) 등 : PTT 38
+
+------------------------------------------------------------------------------
+/sdcard/KakaoTalk/store_cache/299a7c5e7f7074e17209c631ed757a0
+
+USER     PID   PPID  VSIZE  RSS     WCHAN    PC         NAME
+u0_a242   1608  267   763112 129868 ffffffff 00000000 S com.kakao.talk
+
+
+
+자료부족 문제 해결을 위한 어휘 확장
+관계어 빈도를 이용한 가중치
+사전 뜻풀이 이용
+
+
+
+한국어 어휘의미망 KorLex 1.5에 기반을 둔 어의 중의성 해소 기술
+어휘 간의 연관성을 통계적으로 판단하고자 KorLex의 관계어를 이용한 비감독 어의 중의성 해소 기술을 제안함
+중의성 어휘의 관계어들의 통계 정보를 이용하기 때문에 풍부한 통계 정보를 얻을 수 있어 기존의 통계 정보 기반 방법들에 비해 자료 부족 문제에 좀 더 강함
+
+
+
+사용자 데이터 (share 컨텐츠 / Tag-tail / 인맥 Tag)를 활용 자연어 분석을 통해 Tag의 중의성 제거
+
+
+
+http://cbt.6project.co.kr/data/cbt/app-debug-20160913.apk
+	
+
+메인DB
+HP DL580 Gen9 E-74850v3 4p 128GB Svr / HDD 1TB 6G SAS 7.2K
+
+보조DB
+HP DL560 Gen9 E5-4610v3 32GB 2P Entry WW / HDD 1TB 6G SATA 7.2K
+
+웹서버
+HP DL360 Gen9 E5-2603v3 Entry SAS AP Svr / HDD 600GB 6G SAS 10K
+
+이미지서버
+HP DL160 Gen9 E5-2603v4 LEF Ety Svr / HDD 3TB 6G SATA 2EA
+
+381 472
+
+
+
+
+sixlab0312
+
+DP 계산기
+http://lime.so/6
+720*1280
+
+360
+640.00dp
+
+
+
+QVGA(240×320), 120dpi : HTC Tatoo   Low desity 120 ? ldp
+320x426
+HVGA(320X480) : 3.0~3.5  edium density 160 ? mdpi 
+320 x 480
+WVGA(480×800) : 3.3~4.0   High density 240 ? hdpi
+320x533
+(720*1280)  x High density 320 ? xhdpi
+360x640
+720*1280)
+
+
+320x426
+320 x 480
+320x533
+360x640
+
+D:\Project\MyApplication\app\src\main\res\mipmap-xxhdpi\ic_launcher.png
+
+
+My PIN
+stonebreaker2me
+How2Live?
+How2Think?
+
+
+http://invite.6project.co.kr/invite/main.do?cmd=batchForm
+
+
+
+stonebreaker@hanmail.net
+Imhere
+How2Live
+
+
+
+
+
+
+adb nodaemon server
+netstat -ano | findstr "5037"
+
+
+
+ViewPostImeInputStage
+
+https://slipp.net/wiki/pages/viewpage.action?pageId=11632748
+
+
+
+-----------------------------------------------------------------
+Job Korea
+*****************************************************************
+job6ix
+7human&&
+-----------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------
+이은경 -> 개발자 역량 떨어 짐. -> 채용 여부 내일까지 확정 할 것.
+          채용 결정 해도 join 여부 불투명 함.
+한혜린 -> 금 주 내 interview 진행 여부 결정 할 것
+윤지훈 -> desinger 신입 
+이상민 -> 경력 제일 좋음. 10월 11월 interview 진행 예정
+신지영 -> 10월 10일 면접 진행 완료
+-----------------------------------------------------------------
+
+
+
+
+안드로이드 스튜디오 레이아웃 XML파일 렌더링 문제 해결 방법 (Android Studio Rendering Problems 오류)
+http://withcoding.com/50
+
+안드로이드 스튜디오 aidl is missing 컴파일 에러 해결방법 (Android Studio aidl is missing 문제)
+http://withcoding.com/51
+
+
+
+
+
+//adb 기기 접속
+$ adb shell
+//연결된 기기에 설치된 package 보기
+$ pm list packages -f
+//원하는 package 내용 복사
+/data/app/com.example.test-1.apk=com.example.test
+위 내용중 
+/data/app/com.example.test-1.apk 만 복사
+
+//shell 빠져 나돈다
+$ exit
+//pull로 추출
+$ adb pull /data/app/com.example.test-1.apk
+1339 KB/s (21955 bytes in 0.016s)
+
+pull로 해당 경로 apk를 추출한다.
+apk파일은 사용한 위치에 저장된다.  
+
+
+
+D:\Project\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\res\layout\abc_list_menu_item_layout.xml
+
+
+뷰와 관련해서는 다음의 블로그에서 굉장히 자세하게 설명되어있기 때문에 이쪽 게시물을 참조하시면 좋을 
+듯 합니다. 도모네 프로그램 세계
+http://netrance.blog.me/110121255363
+
+
+
+@+id : 새로 추가 하는 ID
+@id : 이미 추가가 되어 있는 resource ID
+@android:id : Android에서 예약이 되어 있는 Resorce ID
+
+
+
+layout_marginTop
+layout_marginRight
+
+
+android:layout_height="wrap_content"
+	
+
+
+adb logcat > log.txt
+
+
+
+JavaScript Object Notation이라는 이름에서 알 수 있듯이 자바스크립트를 위한 것이고 객체 형식으로 자료를 표현하는 것이다.
+
+
+
+Ajax(Asynchronous JavaScript and XML, 에이잭스)는 대화식 웹 애플리케이션의 제작을 위해 아래와 같은 조합을 이용하는 웹 개발 기법이다.
+표현 정보를 위한 HTML (또는 XHTML) 과 CSS
+동적인 화면 출력 및 표시 정보와의 상호작용을 위한 DOM, 자바스크립트
+웹 서버와 비동기적으로 데이터를 교환하고 조작하기 위한 XML, XSLT, XMLHttpRequest (Ajax 애플리케이션은 XML/XSLT 대신 미리 정의된 HTML이나 일반 텍스트, JSON, JSON-RPC를 이용할 수 있다).
+
+
+자바 서블릿(Java Servlet)은 자바를 사용하여 웹페이지를 동적으로 생성하는 서버측 프로그램 혹은 그 사양을 말하며, 흔히 "서블릿"이라 불린다. 자바 서블릿은 웹 서버의 성능을 향상하기 위해 사용되는 자바 클래스의 일종이다. 서블릿은 JSP와 비슷한 점이 있지만, JSP가 HTML 문서 안에 Java 코드를 포함하고 있는 반면, 서블릿은 자바 코드 안에 HTML을 포함하고 있다는 차이점이 있다.
+
+
+아파치 스트럿츠(Apache Struts)는 Java EE 웹 애플리케이션을 개발하기 위한 오픈 소스 프레임워크이다
+
+
+http://www.vandrielmedia.com/articles/photoshop-cc-2015-crash-on-startup-fixed
+
+
+
+https://docs.oracle.com/cd/E14571_01/web.1111/e13712/web_xml.htm#WBAPP502
+http://wiki.javajigi.net/pages/viewpage.action?pageId=3112966
+https://docs.oracle.com/cd/E14571_01/web.1111/e13712/web_xml.htm#WBAPP517
+http://wiki.javajigi.net/pages/viewpage.action?pageId=3112966
+https://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html
+http://www.databasesql.info/article/374978161/
+http://blog.naver.com/junhwen/130151733184
+http://chanlee.github.io/2014/01/18/cron-expression-with-quartz-cron-trigger/
+
+
+
+MVC
+Model
+View
+Controller
+DataBase Connection Pool
+
+
+
+
+2맥 이상의 경우 대표 TAG만 만 검색이 되는데 유효성 확인 할 것.
+
+
+D:\Project\six_2016_03_22_15_41\app\src\main\java\com\sixlab\app\six\network\AsyncTaskThread.java
+
+
+
+
+https://brunch.co.kr/@minihong/3
+https://medium.com/@byhiteq/ui-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88%EB%A5%BC-%EC%9C%84%ED%95%9C-zeplin-%EC%8B%A4%EB%AC%B4-%ED%8C%81-b7d190153887#.7dcmwivew
+
+D:\Project\six_2016_03_22_15_41\app\src\main\res\drawable-xxhdpi\profile_login_box.png
+
+
+
+
+
+
+
+
+
+
+iOS Process LifeCycle Management
+SQL Lite & Core DB 
+
+
+
+https://medium.com/ios-development-with-swift/%EC%95%B1-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-app-lifecycle-vs-%EB%B7%B0-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-view-lifecycle-in-ios-336ae00d1855#.5morttz1b
+
+http://redgolems.tistory.com/4
+
+
+D:\Project\six_2016_03_22_15_41\app\src\main\res\values\styles.xml
+
+
+
+
+
+Fragment 설명
+http://unikys.tistory.com/318
+
+
+D:\Project\six_2016_03_22_15_41\app\src\main\java\com\sixlab\app\six\models\MyTagData.java
+
+D:\Project\six_2016_03_22_15_41\app\src\main\java\com\sixlab\app\six\models
+
+
+D:\Project\MyApplication\app\src\main\java\com\example\sara\myapplication
+
+
+
+
+dslv_fragment_main
+
+
+am broadcast -a com.android.vending.INSTALL_REFERRER -n <6ix_ver_1.0.1.161028_dev.apk.
+
+
+http://blog.ab180.co/install-tracking-with-google-play-referrer/
+
+
+
+https://app.zeplin.io/project.html#pid=579ff79584724018612c8f15&dashboard
+
+
+
+
+https://github.com/wasabeef/awesome-android-ui
+
+
+ContentResolver
+
+
+
+
+
+
+        final DragSortListView mList;
+
+        mList = (DragSortListView) getListView();
+
+
+        mList.setDropListener(mDropListener);  
+ 
+        final DragSortController controller = new DragSortController(mList);   OK
+        controller.setDragHandleId(R.id.text1);   OK
+        controller.setRemoveEnabled(false);  OK
+        controller.setSortEnabled(true);  OK
+        controller.setDragInitMode(1);  
+ 
+        mList.setFloatViewManager(controller);  OK
+        mList.setOnTouchListener(controller);   OK
+        mList.setDragEnabled(true);  OK
+    }
+
+
+
+D:\Project\MyApplication\app\src\main\res\layout\my_tagbox_item.xml
+
+D:\android-sdk\sources\android-23\android\view\GestureDetector.java
+
+http://cdmanii.com/1641
+
+
+---------------------------------------------------------------------------------------
+최초 계정 login 시 How2Live
+How2Live?
+engineer
+Hong
+ChangDong
+---------------------------------------------------------------------------------------
+
+http://ingorae.tistory.com/1553
+
+
+http://macdrug.com/free-ntfs-read-and-write-solutions-in-mac-os-x-el-capitan-or-older/
+
+
+smc.version = "0"
+
+
+-- 나중에 꼭 확인 할 것 -- 
+Failed packages:
+- Google APIs Intel x86 Atom System Image (system-images;android-23;google_apis;x86)
+
+
+---------------------------------------------------------------------------------------
+isHUD
+---------------------------------------------------------------------------------------
+
+
+맥에서 사용하는 shell
+bash command
+
+
+
+https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson2.html#//apple_ref/doc/uid/TP40015214-CH5-SW1
+
+
+https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson8.html#//apple_ref/doc/uid/TP40015214-CH16-SW1
+
+
+
+
+Share 작성 창 14
+나의 인 선택 14
+Check box Indentation 8
+나의 인 검색 14  icon size 28
+
+
+택 선택 화면
+title 13
+내용 13
+button 14
+
+
+
+http://swift.leantra.kr/#basic-operators
+http://swift.leantra.kr/
+
+
+
+https://github.com/joonhwan/study/blob/master/objc/LearnViewController.org
+
+
+https://www.google.co.kr/search?q=input+box+for+bubble&biw=1680&bih=982&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjciMGzqtzQAhVDupQKHeTmCI8Q_AUICCgB#imgrc=tI4ePTjbn5MM-M%3A
+
+
+
+https://www.google.co.kr/search?q=input+box+for+bubble&biw=1680&bih=982&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjciMGzqtzQAhVDupQKHeTmCI8Q_AUICCgB#imgrc=nnimxcsIh0d18M%3A
+
+
+
+http://203.237.244.98/stack-views.html
+
+
+
+
+Git Hub
+justnowhere
+stonebreaker@6ix.co.kr
+How2Live
+6ixProject
+
+
+
+D:\6ixproject [master +1 ~0 -0 | +0 ~0 -1 !]> git commit -m "first commit"
+[master faf7245] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+D:\6ixproject [master +0 ~0 -1 !]> git remote add origin git@github.com:justnowh
+ere/6ixProject.git
+
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of know
+n hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+$ git clone git://git.kernel.org/pub/scm/git/git.git
+# 리눅스 커널 (대략 150MB 정도 다운로드):
+$ git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git
+
+
+
+
+
+##########################################################################
+##########################################################################
+##########################################################################
+##########################################################################
+##########################################################################
+##########################################################################
+##########################################################################
+##########################################################################
+##########################################################################
+yy##########################################################################
+##########################################################################
+##########################################################################
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)
+# git 프로그램 자체 (대략 10MB 정도 다운로드)dkdld\\
+ddlkdldd;la
+
+
+
+
+
+
+
+
+
+
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
