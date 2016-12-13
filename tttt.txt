@@ -1,0 +1,38 @@
+
+ddakldkdlalfklaklkaalskfakklsdlaslkla
+다음은 Staging Area와 워킹 디렉토리 사이를 넘나드는 방법을 설명한다. 두 영역의 상태를 확인할 때마다 변경된 상태를 되돌리는 방법을 알려주기 때문에 매우 편리하다. 예를 들어 파일을 두 개 수정하고서 따로따로 커밋하려고 했지만, 실수로 git add * 라고 실행해 버렸다. 두 파일 모두 Staging Area에 들어 있다. 이제 둘 중 하나를 어떻게 꺼낼까? 우선 git status 명령으로 확인해보자:
+
+
+$ git add .
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    renamed:    README.md -> README
+    modified:   benchmarks.rb
+Changes to be commited 밑에 git reset HEAD <file>... 메시지를 볼 수 있다. 이 명령으로 Unstated 상태로 변경할 수 있다. benchmarks.rb 파일을 Unstated 상태로 변경해보자:
+
+$ git reset HEAD benchmarks.rb
+Unstaged changes after reset:
+M	benchmarks.rb
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    renamed:    README.md -> README
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   benchmarks.rb
+명령어가 낮설게 느껴질 수도 있지만 잘 동작한다. benchmarks.rb 파일은 Unstated 상태가 됐다.
+
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   benchmarks.rb
