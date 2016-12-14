@@ -572,3 +572,193 @@ D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
 D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
 D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
 D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
+
+
+2016-12-14 11:30:31,941 [ajp-apr-8701-exec-61] (LogMessage.java:73) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:31,941 [ajp-apr-8701-exec-61] (LogMessage.java:84) - ::::::::::: [info]className[UserMeServiceImpl] methodName[readProcess()] ! :::::::::::
+2016-12-14 11:30:31,942 [ajp-apr-8701-exec-61] (LogMessage.java:85) - 
+[UserMeServiceImpl] readProcess END
+[UserMeServiceImpl] UserVo [com.sixlab.common.module.search.vo.SearchVo@62f479ee[
+  commoncode=
+  contentstate=
+  usercode=USER2016121300000195
+  userid=
+  userstate=
+  matecode=
+  removecode=
+  maccode=
+  macdiv=
+  sharecode=
+  helpcode=
+  datacode=
+  tagcode=
+  tagname=
+  imagestate=
+  imagetype=
+  token=
+  pushcode=
+  items=[]
+  requsername=
+  resusername=
+  calltype=
+  changemode=
+  changetype=
+  changecode=
+  changestate=
+  devicemodel=IM-A920S
+  appversion=1.0.1.161212
+  deviceuuid=FFFFFFFFBBD430B713A5148D0033C587
+  snum=0
+  icount=0
+  rcount=0
+  scount=0
+  hit=0
+  orderby=
+  limit=0
+  rowno=1
+  rownum=10
+  reqcode=
+  rescode=
+  commonstate=
+  createid=
+  createday=
+  createtime=
+  createdatetime=
+  cancelday=
+  canceltime=
+  canceldatetime=
+  delday=
+  deltime=
+  deldatetime=
+  replyday=
+  replytime=
+  replydatetime=
+  withdrawday=
+  withdrawtime=
+  withdrawdatetime=
+  searchcode=
+  searchmode=
+  searchvalue=
+  cancelstate=
+  certifystate=
+  delstate=
+  expirestate=
+  regid=
+  regday=
+  regtime=
+  regdatetime=
+  modid=
+  moddatetime=
+]]
+[UserMeServiceImpl] readProcess END
+2016-12-14 11:30:31,942 [ajp-apr-8701-exec-61] (LogMessage.java:86) - ::::::::::: [info]className[UserMeServiceImpl] methodName[readProcess()] ! :::::::::::
+2016-12-14 11:30:31,942 [ajp-apr-8701-exec-61] (LogMessage.java:84) - ::::::::::: [info]className[UserMeAction] methodName[read()] ! :::::::::::
+2016-12-14 11:30:31,942 [ajp-apr-8701-exec-61] (LogMessage.java:85) - 
+[UserMeAction] read START
+[UserMeAction] gson    [
+{
+  "result": {
+    "username": "",
+    "nickname": "min",
+    "message": " ",
+    "pimage": "/data/image/user/etc/USER2016121300000195/profile.jpg",
+    "pcachekey": "20161213145142601026",
+    "bimage": "/data/image/user/etc/USER2016121300000195/background.jpg",
+    "bcachekey": "20161213143004405934",
+    "codes": [
+      {
+        "datacode": "DATA2016121300000001",
+        "delegate": "00",
+        "code": "TAG20161213000000001",
+        "name": "",
+        "desc": ""
+      },
+      {
+        "datacode": "DATA2016121300000002",
+        "delegate": "00",
+        "code": "TAG20161213000000002",
+        "name": "",
+        "desc": ""
+      },
+      {
+        "datacode": "DATA2016121300000003",
+        "delegate": "99",
+        "code": "TAG20161213000000010",
+        "name": "
+      },
+      {
+        "datacode": "DATA2016121300000021",
+        "delegate": "99",
+        "code": "TAG20161213000000003",
+        "name": "",
+        "desc": ""
+      },
+      {
+        "datacode": "DATA2016121300000022",
+        "delegate": "99",
+        "code": "TAG20161213000000016",
+        "name": "6ixlab",
+        "desc": ""
+      }
+    ]
+  },
+  "success": "0000",
+  "message": "
+}
+]
+[UserMeAction] read END
+2016-12-14 11:30:31,942 [ajp-apr-8701-exec-61] (LogMessage.java:86) - ::::::::::: [info]className[UserMeAction] methodName[read()] ! :::::::::::
+2016-12-14 11:30:35,653 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,654 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT COUNT(*) CNT FROM ( SELECT USERCODE FROM ( SELECT MU.USERCODE USERCODE FROM MT_USER MU RIGHT OUTER JOIN ( SELECT MATECODE, USERCODE FROM MT_USER_MATE WHERE 1=1 AND USERCODE = 'USER2016121300000195' ) MT ON MU.USERCODE = MT.MATECODE WHERE MU.USERSTATE = '10' ) D WHERE 1=1 ) SUM
+
+2016-12-14 11:30:35,654 [ajp-apr-8701-exec-56] (LogMessage.java:73) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[ge
+2016-12-14 11:30:35,662 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,662 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT USERCODE, USERNAME, MACDIV, LINK, PIMAGE, PCACHEKEY FROM ( SELECT MU.USERCODE ,FN_COMMON_NAME('USER2016121300000195',MU.USERCODE) USERNAME ,FN_MAC_DIV('USER2016121300000195',MU.USERCODE) MACDIV ,FN_MAC_LINK('USER2016121300000195',MU.USERCODE) LINK ,FN_USER_PIMAGE_URL(MU.USERCODE) PIMAGE ,FN_USER_PIMAGE_CACHEKEY(MU.USERCODE) PCACHEKEY FROM MT_USER MU RIGHT OUTER JOIN ( SELECT MATECODE, USERCODE FROM MT_USER_MATE WHERE 1=1 AND USERCODE = 'USER2016121300000195' ) MT ON MU.USERCODE = MT.MATECODE WHERE MU.USERSTATE = '10' ) D WHERE 1=1 LIMIT 0, 10
+
+2016-12-14 11:30:35,662 [ajp-apr-8701-exec-56] (LogMessage.java:73) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,669 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,669 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000196' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
+
+2016-12-14 11:30:35,670 [ajp-apr-8701-exec-56] (LogMessage.java:73) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,676 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,676 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000197' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
+
+2016-12-14 11:30:35,676 [ajp-apr-8701-exec-56] (LogMessage.java:73) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,682 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,683 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000198' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
+
+2016-12-14 11:30:35,683 [ajp-apr-8701-exec-56] (LogMessage.java:73) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,688 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:30:35,689 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000199' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
+
+
+2016-12-14 11:16:59,248 [ajp-apr-8701-exec-61] (LogMessage.java:73) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:16:59,249 [ajp-apr-8701-exec-61] (LogMessage.java:84) - ::::::::::: [info]className[ShareServiceImpl] methodName[list()] ! :::::::::::
+2016-12-14 11:16:59,249 [ajp-apr-8701-exec-61] (LogMessage.java:85) - 
+[ShareServiceImpl] list START
+[ShareServiceImpl] list END
+2016-12-14 11:16:59,249 [ajp-apr-8701-exec-61] (LogMessage.java:86) - ::::::::::: [info]className[ShareServiceImpl] methodName[list()] ! :::::::::::
+2016-12-14 11:16:59,249 [ajp-apr-8701-exec-61] (LogMessage.java:84) - ::::::::::: [info]className[ShareAction] methodName[list()] ! :::::::::::
+2016-12-14 11:16:59,249 [ajp-apr-8701-exec-61] (LogMessage.java:85) - 
+[ShareAction] list START
+[ShareAction] list END
+2016-12-14 11:16:59,250 [ajp-apr-8701-exec-61] (LogMessage.java:86) - ::::::::::: [info]className[ShareAction] methodName[list()] ! :::::::::::
+2016-12-14 11:17:01,455 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:17:01,455 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT USERCODE, USERID, USERNAME, MESSAGE, MOBILE, MACDIV, LINK, PIMAGE, PCACHEKEY, BIMAGE, BCACHEKEY FROM ( SELECT USERCODE, USERID, MESSAGE, MOBILE ,FN_COMMON_NAME('USER2016121300000195',USERCODE) USERNAME ,FN_MAC_DIV('USER2016121300000195',USERCODE) MACDIV ,FN_MAC_LINK('USER2016121300000195',USERCODE) LINK ,FN_USER_PIMAGE_URL(USERCODE) PIMAGE ,FN_USER_PIMAGE_CACHEKEY(USERCODE) PCACHEKEY ,FN_USER_BIMAGE_URL(USERCODE) BIMAGE ,FN_USER_BIMAGE_CACHEKEY(USERCODE) BCACHEKEY FROM MT_USER WHERE 1=1 AND WITHDRAWSTATE IS NULL AND USERSTATE = '10' AND USERCODE = 'USER2016121300000204' ) D WHERE 1=1
+
+2016-12-14 11:17:01,455 [ajp-apr-8701-exec-56] (LogMessage.java:73) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] :::::::::::
+2016-12-14 11:17:01,463 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:17:01,463 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT USERCODE, MACDIV, LINK, PIMAGE, PCACHEKEY FROM ( SELECT USERCODE ,FN_MAC_DIV('USER2016121300000195',USERCODE) MACDIV ,FN_MAC_LINK('USER2016121300000195',USERCODE) LINK ,FN_USER_PIMAGE_URL(USERCODE) PIMAGE ,FN_USER_PIMAGE_CACHEKEY(USERCODE) PCACHEKEY FROM MT_USER WHERE 1=1 AND USERCODE IN ( 'USER2016121300000195' , 'USER2016121300000198' , 'USER2016121300000204' ) ) MU ORDER BY MACDIV ASC
+
+2016-12-14 11:17:01,463 [ajp-apr-8701-exec-56] (LogMessage.java:73) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:17:01,470 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:17:01,470 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000204' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
