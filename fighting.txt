@@ -579,6 +579,21 @@ D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
 2016-12-14 11:30:31,942 [ajp-apr-8701-exec-61] (LogMessage.java:85) - 
 [UserMeServiceImpl] readProcess END
 [UserMeServiceImpl] UserVo [com.sixlab.common.module.search.vo.SearchVo@62f479ee[
+ withdrawdatetime=
+  searchcode=
+  searchmode=
+  searchvalue=
+  cancelstate=
+  certifystate=
+  delstate=
+  expirestate=
+  regid=
+  regday=
+  regtime=
+  regdatetime=
+  modid=
+  moddatetime=
+
   commoncode=
   contentstate=
   usercode=USER2016121300000195
@@ -684,7 +699,8 @@ D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
         "datacode": "DATA2016121300000003",
         "delegate": "99",
         "code": "TAG20161213000000010",
-        "name": "
+        "name": "",
+        "desc": "!"
       },
       {
         "datacode": "DATA2016121300000021",
@@ -703,9 +719,10 @@ D:\6ixproject [master +0 ~0 -1 !]> git push -u origin master
     ]
   },
   "success": "0000",
-  "message": "
 }
 ]
+
+
 [UserMeAction] read END
 2016-12-14 11:30:31,942 [ajp-apr-8701-exec-61] (LogMessage.java:86) - ::::::::::: [info]className[UserMeAction] methodName[read()] ! :::::::::::
 2016-12-14 11:30:35,653 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
@@ -747,6 +764,289 @@ SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGA
 2016-12-14 11:16:59,249 [ajp-apr-8701-exec-61] (LogMessage.java:84) - ::::::::::: [info]className[ShareAction] methodName[list()] ! :::::::::::
 2016-12-14 11:16:59,249 [ajp-apr-8701-exec-61] (LogMessage.java:85) - 
 [ShareAction] list START
+
+See also:
+
+Notification
+getSystemService(Class)
+
+
+Constants
+ACTION_INTERRUPTION_FILTER_CHANGED
+
+Added in API level 23
+String ACTION_INTERRUPTION_FILTER_CHANGED
+Intent that is broadcast when the state of getCurrentInterruptionFilter() changes. This broadcast is only sent to registered receivers.
+
+Constant Value: "android.app.action.INTERRUPTION_FILTER_CHANGED"
+
+ACTION_NOTIFICATION_POLICY_ACCESS_GRANTED_CHANGED
+
+Added in API level 23
+String ACTION_NOTIFICATION_POLICY_ACCESS_GRANTED_CHANGED
+Intent that is broadcast when the state of isNotificationPolicyAccessGranted() changes. This broadcast is only sent to registered receivers, and only to the apps that have changed.
+
+Constant Value: "android.app.action.NOTIFICATION_POLICY_ACCESS_GRANTED_CHANGED"
+
+ACTION_NOTIFICATION_POLICY_CHANGED
+
+Added in API level 23
+String ACTION_NOTIFICATION_POLICY_CHANGED
+Intent that is broadcast when the state of getNotificationPolicy() changes. This broadcast is only sent to registered receivers.
+
+Constant Value: "android.app.action.NOTIFICATION_POLICY_CHANGED"
+
+IMPORTANCE_DEFAULT
+
+Added in API level 24
+int IMPORTANCE_DEFAULT
+Default notification importance: shows everywhere, allowed to makes noise, but does not visually intrude.
+
+Constant Value: 3 (0x00000003)
+
+IMPORTANCE_HIGH
+
+Added in API level 24
+int IMPORTANCE_HIGH
+Higher notification importance: shows everywhere, allowed to makes noise and peek.
+
+Constant Value: 4 (0x00000004)
+
+IMPORTANCE_LOW
+
+Added in API level 24
+int IMPORTANCE_LOW
+Low notification importance: shows everywhere, but is not intrusive.
+
+Constant Value: 2 (0x00000002)
+
+IMPORTANCE_MAX
+
+Added in API level 24
+int IMPORTANCE_MAX
+Highest notification importance: shows everywhere, allowed to makes noise, peek, and use full screen intents.
+
+Constant Value: 5 (0x00000005)
+
+IMPORTANCE_MIN
+
+Added in API level 24
+int IMPORTANCE_MIN
+Min notification importance: only shows in the shade, below the fold.
+
+Constant Value: 1 (0x00000001)
+
+IMPORTANCE_NONE
+
+Added in API level 24
+int IMPORTANCE_NONE
+A notification with no importance: shows nowhere, is blocked.
+
+Constant Value: 0 (0x00000000)
+
+IMPORTANCE_UNSPECIFIED
+
+Added in API level 24
+int IMPORTANCE_UNSPECIFIED
+Value signifying that the user has not expressed an importance. This value is for persisting preferences, and should never be associated with an actual notification.
+
+Constant Value: -1000 (0xfffffc18)
+
+INTERRUPTION_FILTER_ALARMS
+
+Added in API level 23
+int INTERRUPTION_FILTER_ALARMS
+Interruption filter constant - Alarms only interruption filter - all notifications except those of category CATEGORY_ALARM are suppressed. Some audio streams are muted.
+
+Constant Value: 4 (0x00000004)
+
+INTERRUPTION_FILTER_ALL
+
+Added in API level 23
+int INTERRUPTION_FILTER_ALL
+Interruption filter constant - Normal interruption filter - no notifications are suppressed.
+
+Constant Value: 1 (0x00000001)
+
+INTERRUPTION_FILTER_NONE
+
+Added in API level 23
+int INTERRUPTION_FILTER_NONE
+Interruption filter constant - No interruptions filter - all notifications are suppressed and all audio streams (except those used for phone calls) and vibrations are muted.
+
+Constant Value: 3 (0x00000003)
+
+INTERRUPTION_FILTER_PRIORITY
+
+Added in API level 23
+int INTERRUPTION_FILTER_PRIORITY
+Interruption filter constant - Priority interruption filter - all notifications are suppressed except those that match the priority criteria. Some audio streams are muted. See priorityCallSenders, priorityCategories, priorityMessageSenders to define or query this criteria. Users can additionally specify packages that can bypass this interruption filter.
+
+Constant Value: 2 (0x00000002)
+
+INTERRUPTION_FILTER_UNKNOWN
+
+Added in API level 23
+int INTERRUPTION_FILTER_UNKNOWN
+Interruption filter constant - returned when the value is unavailable for any reason.
+
+Constant Value: 0 (0x00000000)
+
+
+Public methods
+addAutomaticZenRule
+
+Added in API level 24
+String addAutomaticZenRule (AutomaticZenRule automaticZenRule)
+Creates the given zen rule.
+
+Throws a SecurityException if policy access is granted to this package. See isNotificationPolicyAccessGranted().
+
+Parameters
+automaticZenRule	AutomaticZenRule: the rule to create.
+Returns
+String	The id of the newly created rule; null if the rule could not be created.
+2016-12-14 11:30:31,942 [ajp-apr-8701-exec-61] (LogMessage.java:86) - ::::::::::: [info]className[UserMeAction] methodName[read()] ! :::::::::::
+
+SELECT USERCODE, USERNAME, MACDIV, LINK, PIMAGE, PCACHEKEY FROM ( SELECT MU.USERCODE ,FN_COMMON_NAME('USER2016121300000195',MU.USERCODE) USERNAME ,FN_MAC_DIV('USER2016121300000195',MU.USERCODE) MACDIV ,FN_MAC_LINK('USER2016121300000195',MU.USERCODE) LINK ,FN_USER_PIMAGE_URL(MU.USERCODE) PIMAGE ,FN_USER_PIMAGE_CACHEKEY(MU.USERCODE) PCACHEKEY FROM MT_USER MU RIGHT OUTER JOIN ( SELECT MATECODE, USERCODE FROM MT_USER_MATE WHERE 1=1 AND USERCODE = 'USER2016121300000195' ) MT ON MU.USERCODE = MT.MATECODE WHERE MU.USERSTATE = '10' ) D WHERE 1=1 LIMIT 0, 10
+Added in API level 5
+void cancel (String tag, 
+                int id)
+Cancel a previously shown notification. If it's transient, the view will be hidden. If it's persistent, it will be removed from the status bar.
+
+
+SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000197' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
+Parameters
+id	int
+cancelAll
+
+SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000198' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
+getActiveNotifications
+
+SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000199' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
+Returns
+StatusBarNotification[]	An array of StatusBarNotification.
+getAutomaticZenRule
+
+Added in API level 24
+AutomaticZenRule getAutomaticZenRule (String id)
+Returns the AutomaticZenRule with the given id, if it exists and the caller has access.
+
+2016-12-14 11:16:59,249 [ajp-apr-8701-exec-61] (LogMessage.java:84) - ::::::::::: [info]className[ShareServiceImpl] methodName[list()] ! :::::::::::
+[ShareServiceImpl] list START
+2016-12-14 11:16:59,249 [ajp-apr-8701-exec-61] (LogMessage.java:85) - 
+getAutomaticZenRules
+
+Added in API level 24
+Map<String, AutomaticZenRule> getAutomaticZenRules ()
+Returns AutomaticZenRules owned by the caller.
+
+Throws a SecurityException if policy access is granted to this package. See isNotificationPolicyAccessGranted().
+
+Returns
+Map<String, AutomaticZenRule>	
+getCurrentInterruptionFilter
+
+Added in API level 23
+int getCurrentInterruptionFilter ()
+Gets the current notification interruption filter.
+
+The interruption filter defines which notifications are allowed to interrupt the user (e.g. via sound & vibration) and is applied globally.
+
+Returns
+int	One of the INTERRUPTION_FILTER_ constants, or INTERRUPTION_FILTER_UNKNOWN when unavailable.
+getImportance
+
+Added in API level 24
+int getImportance ()
+Returns the user specified importance for notifications from the calling package.
+
+Returns
+int	An importance level, such as IMPORTANCE_DEFAULT.
+getNotificationPolicy
+
+Added in API level 23
+NotificationManager.Policy getNotificationPolicy ()
+Gets the current notification policy.
+
+Only available if policy access is granted to this package. See isNotificationPolicyAccessGranted().
+
+Returns
+NotificationManager.Policy	
+isNotificationPolicyAccessGranted
+
+Added in API level 23
+boolean isNotificationPolicyAccessGranted ()
+Checks the ability to read/modify notification policy for the calling package.
+
+Returns true if the calling package can read/modify notification policy.
+
+Request policy access by sending the user to the activity that matches the system intent action ACTION_NOTIFICATION_POLICY_ACCESS_SETTINGS.
+
+Use ACTION_NOTIFICATION_POLICY_ACCESS_GRANTED_CHANGED to listen for user grant or denial of this access.
+
+Returns
+boolean	
+notify
+
+Added in API level 5
+void notify (String tag, 
+                int id, 
+                Notification notification)
+Post a notification to be shown in the status bar. If a notification with the same tag and id has already been posted by your application and has not yet been canceled, it will be replaced by the updated information.
+
+Parameters
+tag	String: A string identifier for this notification. May be null.
+id	int: An identifier for this notification. The pair (tag, id) must be unique within your application.
+notification	Notification: A Notification object describing what to show the user. Must not be null.
+notify
+
+Added in API level 1
+void notify (int id, 
+                Notification notification)
+Post a notification to be shown in the status bar. If a notification with the same id has already been posted by your application and has not yet been canceled, it will be replaced by the updated information.
+
+Parameters
+id	int: An identifier for this notification unique within your application.
+notification	Notification: A Notification object describing what to show the user. Must not be null.
+removeAutomaticZenRule
+
+Added in API level 24
+boolean removeAutomaticZenRule (String id)
+Deletes the automatic zen rule with the given id.
+
+Throws a SecurityException if policy access is granted to this package. See isNotificationPolicyAccessGranted().
+
+Callers can only delete rules that they own. See getOwner().
+
+Parameters
+id	String: the id of the rule to delete.
+Returns
+boolean	Whether the rule was successfully deleted.
+setInterruptionFilter
+
+Added in API level 23
+void setInterruptionFilter (int interruptionFilter)
+Sets the current notification interruption filter.
+
+The interruption filter defines which notifications are allowed to interrupt the user (e.g. via sound & vibration) and is applied globally.
+
+Parameters
+interruptionFilter	int
+Returns
+void	One of the INTERRUPTION_FILTER_ constants, or INTERRUPTION_FILTER_UNKNOWN when unavailable.
+Only available if policy access is granted to this package. See isNotificationPolicyAccessGranted().
+2016-12-14 11:16:59,250 [ajp-apr-8701-exec-61] (LogMessage.java:86) - ::::::::::: [info]className[ShareAction] methodName[list()] ! :::::::::::
+
+2016-12-14 11:17:01,463 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
+2016-12-14 11:17:01,463 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT USERCODE, MACDIV, LINK, PIMAGE, PCACHEKEY FROM ( SELECT USERCODE ,FN_MAC_DIV('USER2016121300000195',USERCODE) MACDIV ,FN_MAC_LINK('USER2016121300000195',USERCODE) LINK ,FN_USER_PIMAGE_URL(USERCODE) PIMAGE ,FN_USER_PIMAGE_CACHEKEY(USERCODE) PCACHEKEY FROM MT_USER WHERE 1=1 AND USERCODE IN ( 'USER2016121300000195' , 'USER2016121300000198' , 'USER2016121300000204' ) ) MU ORDER BY MACDIV ASC
+
+2016-12-14 11:17:01,470 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
+SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000204' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
+
+
+
 [ShareAction] list END
 2016-12-14 11:16:59,250 [ajp-apr-8701-exec-61] (LogMessage.java:86) - ::::::::::: [info]className[ShareAction] methodName[list()] ! :::::::::::
 2016-12-14 11:17:01,455 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
@@ -762,3 +1062,4 @@ SELECT USERCODE, MACDIV, LINK, PIMAGE, PCACHEKEY FROM ( SELECT USERCODE ,FN_MAC_
 2016-12-14 11:17:01,470 [ajp-apr-8701-exec-56] (LogMessage.java:71) - ::::::::::: [info]className[BaseDaoSupportImpl] methodName[getSqlQuery()] ! :::::::::::
 2016-12-14 11:17:01,470 [ajp-apr-8701-exec-56] (LogMessage.java:72) - 
 SELECT DATACODE, TAGCODE, FN_TAG_NAME(TAGCODE) TAGNAME, TAGDESC, ORDERBY, DELEGATE FROM TB_USER_TAG WHERE 1=1 AND USERCODE = 'USER2016121300000204' ORDER BY DELEGATE ASC, ORDERBY ASC, REGDATETIME DESC LIMIT 0, 6
+
